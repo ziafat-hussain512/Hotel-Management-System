@@ -25,25 +25,25 @@ This is a console-based hotel management system designed to manage room bookings
    - **Show Rooms (`show`)**: Displays all allocated rooms in the system.
    - **Sort Rooms (`sort`)**: Sorts rooms by Room ID in ascending order.
 
- 4. Queue Management:
+ 4. **Queue Management**:
    - **Add to Queue (`addToQueue`)**: Adds customers to the waiting list if no room is available.
    - **Process Queue (`processQueue`)**: Allocates rooms to customers from the waiting list when a room is deleted or becomes available. The new room is allocated with an incremented 
      Room ID.
 
-5.  Menu System:
+5.  **Menu System**:
    - After logging in, the user can interact with a menu offering options like inserting, searching, updating, deleting, and displaying rooms, processing the waiting list, and more.
 
-6. Input Validation:
+6. **Input Validation**:
      - The code includes validation for:
      - **Room ID**: Numeric input only.
      - **Customer Name**: Only alphabetic characters are allowed.
      - **Date**: Validates date format (YYYY-MM-DD).
      - **Room Type**: Only accepts 'single' or 'double' as valid room types.
 
-7. Program Flow:
+7. **Program Flow**:
    - The system starts with a login screen. After a successful login, the user is presented with a menu to perform hotel management tasks.
    - The program continues running until the user chooses to exit.
 
-8. Error Handling:
+8. **Error Handling**:
    - The system handles invalid inputs (e.g., non-numeric Room IDs, incorrect date formats) and prompts users to correct them.
 
